@@ -7,39 +7,50 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <main>
+    <section class="section">
+      <div class="section__title">
+        <h1 class="section__title--main">
+          Reliable, efficient delivery
+          <span>Powered by Technology</span>
+        </h1>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+        <p class="section__title--description">Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</p>
+      </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="section__cards l-grid">
+        <div class="card card--supervisor">
+          <div class="card__title">Supervisor</div>
+          <p class="card__text">Monitors activity to identify project roadblocks</p>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+          <img src="./images/icon-supervisor.svg" alt="" class="card__icon">
+        </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <div class="card card--team-builder">
+          <div class="card__title">Team Builder</div>
+          <p class="card__text">Scans our talent network to create the optimal team for your project</p>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+          <img src="./images/icon-team-builder.svg" alt="" class="card__icon">
+        </div>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        <div class="card card--karma">
+          <div class="card__title">Karma</div>
+          <p class="card__text">Regularly evaluates our talent to ensure quality</p>
+
+          <img src="./images/icon-karma.svg" alt="" class="card__icon">
+        </div>
+
+        <div class="card card--calculator">
+          <div class="card__title">Calculator</div>
+          <p class="card__text">Uses data from past projects to provide better delivery estimates</p>
+
+          <img src="./images/icon-calculator.svg" alt="" class="card__icon">
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
